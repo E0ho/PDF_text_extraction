@@ -15,7 +15,7 @@ def split(directory, filename):
         output = PdfWriter()
         output.add_page(inputpdf.pages[i])     
 
-        with open(directory+ "/%s.pdf" % i, "wb") as outputStream:
+        with open(directory + "/%s.pdf" % i, "wb") as outputStream:
             output.write(outputStream)
 
 if __name__ == "__main__":
