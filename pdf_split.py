@@ -1,3 +1,4 @@
+# pip install pypdf2
 from PyPDF2 import PdfWriter, PdfReader
 import os, errno
 
